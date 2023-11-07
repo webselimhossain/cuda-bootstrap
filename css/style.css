@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #87509c;
+    padding: 10px;
+}
+.navbar-brand{
+    cursor: pointer;
+}
+.header-content{
+    padding: 50px;
+}
+.header-content h1{
+    font-size: 30px;
+}
+.btn{
+    width: 150px;
+}
+#hbtn{
+    background-color: #eb7d4b;
+    border: 1px solid #eb7d4b;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 30px;
+    transition: 1s;
+}
+#hbtn:hover{
+    background-color: white;
+    color: #eb7d4b;
+    border: 1px solid white;
+}
+#service{
+    background-color: #17c2a4;
+}
+.underline{
+    border-bottom: 4px solid #919fa9;
+    width: 15%;
+    margin: 10px auto;
+}
+.heading{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.sub-heading{
+    font-size: 16px;
+    padding-top: 15px;
+}
+P{
+    font-size: 15px;
+    padding: 10px 30px;
+    line-height: 17px;
+}
+.box-part p{
+    padding: 5px 50px;
+}
+.writing-part{
+    margin-bottom: 50px;
+}
+.box{
+    padding: 20px 0;
+}
+#service .box img{
+    height: 130px;
+}
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+#team .box img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+h4{
+    font-size: 13px;
+    color: #30bae7;
+}
+i{
+    font-size: 20px;
+    border: 1px solid #bdd1df;
+    border-radius: 30px;
+    background-color: #bdd1df;
+    color: white;
+    transition: 0.5s;
+    padding: 2px;
+}
+i:hover{
+    background-color: #30bae7;
+}
+#skill img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+#portfolio{
+    background-color: #ffdd99;
+}
+.pbutton-1 .btn{
+    background-color: #ebc985;
+    width: 60px;
+    font-size: small;
+    color: black;
+    margin: 0 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 4px #ebc985;
+}
+#portfolio img{
+    width: 300px;
+    height: 160px;
+}
+#pbtn{
+    background-color: #17c2a4;
+    border: 1px solid #17c2a4;
+    color: white;
+    font-size: 12px;
+}
+#client{
+    background-color: #d74680;
+    color: white;
+}
+#client img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#client .box-part{
+    text-align: left;
+    padding: 0 30px;
+}
+#client h4{
+    color: #ffdd99;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+#contact{
+    background-color: #3c5499;
+}
+form{
+    padding-top: 35px;
+}
+.input-box input{
+    color: white;
+    outline: none;
+    background-color: #273a71;
+    padding: 10px 5px;
+    font-size: 10px;
+    width: 80%;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    font-size: 10px;
+    background-color: #273a71;
+    padding: 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+textarea::placeholder{
+    color: white;
+}
+#cbtn{
+    background-color: #30bae7;
+    transition: 0.5s;
+    border: 1px solid #30bae7;
+    font-size: 12px;
+    box-shadow: 0px 0px 4px #30bae7;
+}
+.buton:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    border-top: 1px solid rgb(142, 141, 141);
+}
+#footer{
+    background-color: #344b8e;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+}
+#footer a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+#footer a:hover{
+    color: #30bae7;
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    header{
+        padding: 30px 0;
+    }
+    nav{
+        padding: 10px 0;
+    }
+    #menu li{
+        font-size: 16px;
+        padding: 0 15px;
+        margin: 0px 5px;
+    }
+    #menu li:hover{
+        background-color: #643a79;
+        padding: 0 15px;
+        border-radius: 5px;
+    }
+    .header-content{
+        padding: 100px;
+    }
+    .header-content h1{
+        font-size: 40px;
+        padding-top: 20px;
+        line-height: 45px;
+    }
+    #hbtn{
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .heading{
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 5px;
+    }
+    .underline{
+        width: 8%;
+    }
+    .sub-heading{
+        font-size: 22px;
+        padding-top: 15px;
+    }
+    P{
+        font-size: 15px;
+        padding: 10px 0;
+        line-height: 17px;
+    }
+    .box-part p{
+        padding: 5px 30px;
+    }
+    .writing-part{
+        margin-bottom: 50px;
+    }
+    #portfolio img{
+        width: 450px;
+        height: 280px;
+    }
+    form{
+        padding-top: 75px;
+    }
+    .input-box input{
+        outline: none;
+        padding: 15px 5px;
+        font-size: 14px;
+        width: 350px;
+        margin: 5px 5px;
+        border-radius: 5px;
+    }
+    textarea{
+        width: 710px;
+        height: 200px;
+    }
+    textarea::placeholder{
+        font-size: 14px;
+    }
+    .btn{
+        width: 200px;
+        font-size: 18px;
+    }
+    #footer a{
+        font-size: 20px;
+        margin: 0 20px;
+        transition: 0.5s;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
